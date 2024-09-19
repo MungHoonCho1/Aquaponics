@@ -126,6 +126,7 @@ This project is an IoT-based aquaponics system that monitors and controls enviro
 1. **Run the Node.js server**:
   ```bash
    node server.js
+
 2. **Run the Flask API**:
   ```bash
    python app.py
@@ -133,7 +134,8 @@ This project is an IoT-based aquaponics system that monitors and controls enviro
    ```bash
    curl http://localhost:3000/sensor-data
 
-Future Enhancements
+
+## Future Enhancements
 Implement remote access to the system.
 Add support for multiple users with different access levels.
 Expand the mobile app to include additional control features (e.g., manual control of the pump and lights).
